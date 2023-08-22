@@ -2,7 +2,6 @@
 import {useState, useEffect} from "react";
 import {BsTrash, BsBookmarkCheck, BsBookmarkCheckFill} from 'react-icons/bs';
 import './App.css';
-import FirstComponent from './Components/FisrtComponent';
 const API = 'http:localhost:5000'
 export default function App() {
   const [title, setTitle] = useState("");
